@@ -30,4 +30,21 @@ java把class文件放在jvm上运行
 TASK3
 1
  七部分
- 1：包packeage 
+ 1：包packeage 点出这个类在哪个文件夹里
+ 2：import导入  把Print导入后，可以省去com.Example.tool，后面可以直接调用它
+ 3：公共public 让被修饰的东西，谁都可以编辑
+ 4：主main 程序切入口 jvm从这开始运行
+ 5：class  辅助
+ 6：test调用 调用Test中的test
+ 7：print输出 把结果进行输出
+2
+   package 叫“包”，我把他理解成 文件夹
+   使用package包名和目录对应，方便查找 工具就找tool
+   方便管理代码
+3
+    import 的作用是：导入其他包里的类，让我不用写完整类名。
+4
+     java 程序启动时，JVM 会去找一个固定格式 public static void main(String[] args)
+
+ 
+
