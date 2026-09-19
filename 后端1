@@ -9,4 +9,10 @@ TASK1
 3
   JDK26
 4
-  
+  在库图片里
+TASK2
+1
+   先新建了JAVA_HOME的系统变量 又在Path中新建了%JAVA_HOME%\bin的环境变量
+    JAVA_HOME可以告诉系统和其他软件jdk的位置可以避免path中很长的路径
+    path中%JAVA_HOME%\bin的环境变量，可以在任意文件中运行javac和Java
+
