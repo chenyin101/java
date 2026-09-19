@@ -15,4 +15,19 @@ TASK2
    先新建了JAVA_HOME的系统变量 又在Path中新建了%JAVA_HOME%\bin的环境变量
     JAVA_HOME可以告诉系统和其他软件jdk的位置可以避免path中很长的路径
     path中%JAVA_HOME%\bin的环境变量，可以在任意文件中运行javac和Java
-
+2
+  path可以进行跨文件调用工具吗，windows默认只能在当前文件夹里调用工具
+  在path中存下jdk路径就可以直接使用java和javac
+3
+在库的图片
+4
+我先编写了helloworld.java的文件，用javac运行helloworld.java的文件出现了helloworld.class，又用java运行helloworld.class
+出现了helloworld的字符 
+helloworld.java为人能看懂的代码
+helloworld.class是机器能看懂的汇编语言
+javac把人能看懂的高级语言转化为机器能看懂的class文件
+java把class文件放在jvm上运行
+TASK3
+1
+ 七部分
+ 1：包packeage 
