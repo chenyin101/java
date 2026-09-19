@@ -1,0 +1,12 @@
+TASK1 
+1  
+  JDK是完整编辑和运行Java的软件和运行所需虚拟环境的部分，一般是编码端安装
+    JRE有运行Java的软件和运行所需虚拟环境的部分，一般是使用端安装
+    JVM为java运行的虚拟环境
+     JDK包含JRE,JRE包含JVM
+2
+  java是高级语言，用Java直接写的代码计算机无法识别，需要用到JDK中的javac转化汇编语言 class格式，再用java在jvm上才能运行
+3
+  JDK26
+4
+  
